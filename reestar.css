@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    ont-family: "Young Serif", serif;
+}
+.container{
+    
+    padding: 50px;
+}
+.sec-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+.sec-one__desc{
+    color: gray;
+    
+}
+.container2{
+    text-align: center;
+    
+}
+.sec-two__im,.sec-three__im,.sec-four__im,.sec-five__im{
+    height:  200px;
+    width: 240px;
+}
+.sec-two,.sec-three,.sec-four,.sec-five{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: black solid ;
+    text-align: center;
+    margin-top: 15px;
+    
+    
+}
+h4{
+    padding: 5px;
+}
+.sec-two__button,.sec-three__button,.sec-four__button,.sec-five__button{
+    padding: 5px;
+    margin-top: 5px;
+    background-color: black;
+    border: none;
+    color: ghostwhite;
+}
+.sec-two__button:hover,.sec-three__button:hover,.sec-four__button:hover,.sec-five__button:hover{
+    background-color: red;
+    
+}
+.sec-six{
+    background-color: black;
+    margin-top: 15px;
+    color: white;
+    padding: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.sec-six__button{
+    border: none;
+    background-color: gray;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.sec-six__table{
+    margin-left: auto;
+    margin-right: auto;
+}
